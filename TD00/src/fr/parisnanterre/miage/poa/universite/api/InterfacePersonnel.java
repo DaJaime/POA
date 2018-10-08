@@ -6,5 +6,5 @@ public interface InterfacePersonnel {
 
     String getPrenom();
 
-    int getNumSecuSocial();
+    String getNumSecuSocial();
 }

@@ -5,9 +5,9 @@ import fr.parisnanterre.miage.poa.universite.api.InterfacePersonnel;
 public abstract class Personnel implements InterfacePersonnel {
     private String nom;
     private String prenom;
-    private int numSecuSocial;
+    private String numSecuSocial;
 
-    public Personnel(String nom, String prenom, int numSecuSocial) {
+    public Personnel(String nom, String prenom, String numSecuSocial) {
         this.nom = nom;
         this.prenom = prenom;
         this.numSecuSocial = numSecuSocial;
@@ -21,7 +21,12 @@ public abstract class Personnel implements InterfacePersonnel {
         return prenom;
     }
 
-    public int getNumSecuSocial() {
+    public String getNumSecuSocial() {
         return numSecuSocial;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s %s (%s)", nom, prenom, numSecuSocial);
     }
 }

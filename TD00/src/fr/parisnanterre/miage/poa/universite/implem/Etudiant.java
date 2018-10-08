@@ -1,14 +1,22 @@
 package fr.parisnanterre.miage.poa.universite.implem;
 
-public class Etudiant extends Personnel {
-    private int numBourse;
+import fr.parisnanterre.miage.poa.universite.api.IBoursier;
 
-    public Etudiant(String nom, String prenom, int numSecuSocial, int numBourse) {
+public class Etudiant extends Personnel implements IBoursier {
+    private EchelonBourse echelon;
+
+    public Etudiant(String nom, String prenom, String numSecuSocial, EchelonBourse echelon) {
         super(nom, prenom, numSecuSocial);
-        this.numBourse = numBourse;
+        this.echelon = echelon;
     }
 
-    public int getNumBourse() {
-        return numBourse;
+    @Override
+    public double montantBourse() {
+        return echelon.montantBourse();
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Etudiant %s", super.toString());
     }
 }
