@@ -23,12 +23,16 @@ public class RectangleTest {
 
     @Test
     public void testPerimeter() throws Exception {
-        assertEquals(r1.perimeter(),14);
+        double resu;
+        resu = 14;
+        assertEquals(r1.perimeter(),resu);
     }
 
     @Test
     public void testSurface() throws Exception {
-        assertEquals(r1.surface(),12);
+        double resu;
+        resu = 12;
+        assertEquals(r1.surface(),resu);
     }
 
 }
