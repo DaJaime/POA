@@ -18,7 +18,6 @@ public class Point2D {
     }
 
     public double getX() {
-
         return x;
     }
 
