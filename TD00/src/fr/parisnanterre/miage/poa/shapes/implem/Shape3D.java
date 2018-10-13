@@ -4,7 +4,7 @@ import fr.parisnanterre.miage.poa.shapes.api.Mesurable2D;
 import fr.parisnanterre.miage.poa.shapes.api.Mesurable3D;
 import fr.parisnanterre.miage.poa.shapes.api.Translatable3D;
 
-public abstract class Shape3D implements Translatable3D, Mesurable3D{
+public abstract class Shape3D implements Translatable3D, Mesurable3D, Mesurable2D{
     private Point3D refPoint;
 
     public Shape3D(Point3D refPoint) {

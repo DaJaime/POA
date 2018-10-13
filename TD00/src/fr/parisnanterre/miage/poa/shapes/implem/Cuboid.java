@@ -2,7 +2,7 @@ package fr.parisnanterre.miage.poa.shapes.implem;
 
 import fr.parisnanterre.miage.poa.shapes.api.Mesurable2D;
 
-public class Cuboid extends Shape3D implements Mesurable2D{
+public class Cuboid extends Shape3D{
     private double lenght;
     private double width;
     private double height;

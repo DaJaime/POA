@@ -13,4 +13,14 @@ public class Sphere extends Shape3D {
         double puissance = Math.pow(radius, 3);
         return (4*Math.PI/3) * puissance;
     }
+
+    @Override
+    public double perimeter() {
+        return 2*Math.PI*radius;
+    }
+
+    @Override
+    public double surface() {
+        return 4*Math.PI*Math.pow(radius, 2);
+    }
 }
