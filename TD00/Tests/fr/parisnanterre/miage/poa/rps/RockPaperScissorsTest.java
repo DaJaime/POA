@@ -62,4 +62,21 @@ public class RockPaperScissorsTest {
         assertEquals(game.play(p1, p2), Result.TIE);
     }
 
+    /*@Test
+    public void testPlay(){
+        RPSEnum [] listeMouvement1 = new RPSEnum[1];
+        listeMouvement1[0] = RPSEnum.PIERRE;
+
+        RPSEnum [] listeMouvement2 = new RPSEnum[1];
+        listeMouvement1[0] = RPSEnum.CISEAUX;
+
+        Player p1 = new Player("Player1", listeMouvement1);
+        Player p2 = new Player("Player2", listeMouvement2);
+
+        game.play(p1, p2);
+
+        assertEquals(p1.getScore(), 1);
+
+    }*/
+
 }
