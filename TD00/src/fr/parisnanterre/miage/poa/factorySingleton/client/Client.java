@@ -1,7 +1,7 @@
 package fr.parisnanterre.miage.poa.factorySingleton.client;
 
-import fr.parisnanterre.miage.poa.factorySingleton.Product;
-import fr.parisnanterre.miage.poa.factorySingleton.ProductFactory;
+import fr.parisnanterre.miage.poa.factorySingleton.produits.Product;
+import fr.parisnanterre.miage.poa.factorySingleton.produits.ProductFactory;
 
 public class Client {
     public static void main(String[] args){

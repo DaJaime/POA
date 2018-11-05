@@ -1,4 +1,4 @@
-package fr.parisnanterre.miage.poa.factorySingleton;
+package fr.parisnanterre.miage.poa.factorySingleton.produits;
 
 public class ProductFactory {
     public static ProductFactory instance;
