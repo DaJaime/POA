@@ -5,7 +5,7 @@ import fr.parisnanterre.miage.poa.factorySingleton.ProductFactory;
 
 public class Client {
     public static void main(String[] args){
-        ProductFactory factory = new ProductFactory();
+        ProductFactory factory = ProductFactory.getInstance();
         Product produit1 = factory.createProduct("Fr");
         produit1.afficherProduit();
 
