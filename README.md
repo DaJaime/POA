@@ -20,3 +20,9 @@ Simulation du jeu de pierre feuille ciseaux. Afin de voir la méthode de dévelo
 Première utilisation des design pattern Factory et Singleton.  
 Diagramme de classe de l'exercice généré avec IntelliJ.
 ![Shapes_diagram.jpeg](/diagrams/FactorySingleton_diagram.jpeg)
+
+### Logement
+Utilisation du design pattern Visiteur
+
+### VendingMachine
+Utilisation du design pattern State
